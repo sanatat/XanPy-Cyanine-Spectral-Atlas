@@ -1,0 +1,16 @@
+# Original Zenodo instrument archives are not redistributed
+/data/raw/*
+!/data/raw/.gitkeep
+# Local FluoDB input, outputs and large datasets
+/workflows/fluodb/data/*
+!/workflows/fluodb/data/.gitkeep
+*.partial
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+.DS_Store

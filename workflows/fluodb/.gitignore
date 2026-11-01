@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.xanpy-venv/
+FluoDB.csv
+summary.csv
+XanPy_QM_Atlas/
+*.log
+results/generated/
+data/*
+!data/.gitkeep

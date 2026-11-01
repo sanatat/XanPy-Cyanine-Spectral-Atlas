@@ -1,0 +1,695 @@
+{
+  "status": "RAW_SPECTRA_VERIFIED_DESCRIPTIVE_NO_REPLICATES",
+  "source_record": "https://zenodo.org/records/20119205",
+  "source_doi": "10.1021/acs.joc.6c00573",
+  "zip_md5_verified": {
+    "Cy5-7": "15d35122836b39ef7e475c3904ffceaf",
+    "Cy5-8": "de045dcd49ff0eb86ad80c65e98b382f",
+    "Cy7-3": "5c199383545d8fb62cc6adff7011508c",
+    "Cy7-8": "5cab22162f49e71a1275d3db5b877f4e"
+  },
+  "traces": {
+    "Cy5-7": {
+      "absorption": {
+        "published_peak_nm": 649.0,
+        "raw_grid_peak_nm": 649.0,
+        "peak_estimates_nm": {
+          "raw": 648.7273,
+          "sg7": 648.5828,
+          "sg11": 648.5997,
+          "sg21": 649.2589,
+          "sg31": 648.6328,
+          "sg51": 647.6176
+        },
+        "peak_smoothing_range_nm": [
+          647.6176,
+          649.2589
+        ],
+        "wavelength_grid_step_nm": 1.0,
+        "n_points": 911,
+        "measured_wavelength_range_nm": [
+          190.0,
+          1100.0
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 101.72869680014571,
+            "left_nm": 578.3265796376879,
+            "right_nm": 680.0552764378336,
+            "left_halfwidth_nm": 70.67342036231207,
+            "right_halfwidth_nm": 31.05527643783364
+          },
+          "0.5": {
+            "width_nm": 85.27928415463373,
+            "left_nm": 590.925187022313,
+            "right_nm": 676.2044711769468,
+            "left_halfwidth_nm": 58.074812977686975,
+            "right_halfwidth_nm": 27.204471176946754
+          },
+          "0.6": {
+            "width_nm": 69.484177987424,
+            "left_nm": 603.0537542228195,
+            "right_nm": 672.5379322102435,
+            "left_halfwidth_nm": 45.94624577718048,
+            "right_halfwidth_nm": 23.537932210243525
+          },
+          "0.7": {
+            "width_nm": 54.21066126625658,
+            "left_nm": 614.6101433360597,
+            "right_nm": 668.8208046023162,
+            "left_halfwidth_nm": 34.38985666394035,
+            "right_halfwidth_nm": 19.82080460231623
+          },
+          "0.8": {
+            "width_nm": 39.962859497330896,
+            "left_nm": 625.005871040724,
+            "right_nm": 664.9687305380548,
+            "left_halfwidth_nm": 23.994128959276054,
+            "right_halfwidth_nm": 15.968730538054842
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 85.269,
+          "11": 85.279,
+          "21": 85.154,
+          "31": 85.209,
+          "51": 85.904
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy5-7/Cy5-7 (Figure S121, absorption spectra).txt"
+      },
+      "emission": {
+        "published_peak_nm": 693.0,
+        "raw_grid_peak_nm": 693.67078,
+        "peak_estimates_nm": {
+          "raw": 693.6379,
+          "sg7": 693.6494,
+          "sg11": 693.5446,
+          "sg21": 692.0587,
+          "sg31": 692.3524,
+          "sg51": 692.5641
+        },
+        "peak_smoothing_range_nm": [
+          692.0587,
+          693.6494
+        ],
+        "wavelength_grid_step_nm": 0.4291350000000307,
+        "n_points": 493,
+        "measured_wavelength_range_nm": [
+          639.44019,
+          850.52063
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 75.8109496717907,
+            "left_nm": 666.5034758226153,
+            "right_nm": 742.314425494406,
+            "left_halfwidth_nm": 27.16730417738472,
+            "right_halfwidth_nm": 48.64364549440597
+          },
+          "0.5": {
+            "width_nm": 60.97549395350143,
+            "left_nm": 670.0526739196662,
+            "right_nm": 731.0281678731676,
+            "left_halfwidth_nm": 23.61810608033386,
+            "right_halfwidth_nm": 37.35738787316757
+          },
+          "0.6": {
+            "width_nm": 48.78896584666097,
+            "left_nm": 673.2644242031932,
+            "right_nm": 722.0533900498542,
+            "left_halfwidth_nm": 20.406355796806793,
+            "right_halfwidth_nm": 28.38261004985418
+          },
+          "0.7": {
+            "width_nm": 38.688817234574344,
+            "left_nm": 676.5109557158681,
+            "right_nm": 715.1997729504425,
+            "left_halfwidth_nm": 17.1598242841319,
+            "right_halfwidth_nm": 21.528992950442444
+          },
+          "0.8": {
+            "width_nm": 29.66048630245473,
+            "left_nm": 679.9770692134917,
+            "right_nm": 709.6375555159465,
+            "left_halfwidth_nm": 13.69371078650829,
+            "right_halfwidth_nm": 15.966775515946438
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 60.579,
+          "11": 60.975,
+          "21": 61.207,
+          "31": 61.105,
+          "51": 61.083
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy5-7/Cy5-7 (Figure S121, emission spectra).txt"
+      }
+    },
+    "Cy5-8": {
+      "absorption": {
+        "published_peak_nm": 649.0,
+        "raw_grid_peak_nm": 648.0,
+        "peak_estimates_nm": {
+          "raw": 648.1714,
+          "sg7": 648.251,
+          "sg11": 648.2173,
+          "sg21": 648.1913,
+          "sg31": 647.9787,
+          "sg51": 647.049
+        },
+        "peak_smoothing_range_nm": [
+          647.049,
+          648.251
+        ],
+        "wavelength_grid_step_nm": 1.0,
+        "n_points": 911,
+        "measured_wavelength_range_nm": [
+          190.0,
+          1100.0
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 68.66298820620739,
+            "left_nm": 602.6103877166203,
+            "right_nm": 671.2733759228277,
+            "left_halfwidth_nm": 45.38961228337973,
+            "right_halfwidth_nm": 23.273375922827654
+          },
+          "0.5": {
+            "width_nm": 51.83083748205115,
+            "left_nm": 616.2042700164144,
+            "right_nm": 668.0351074984655,
+            "left_halfwidth_nm": 31.795729983585602,
+            "right_halfwidth_nm": 20.03510749846555
+          },
+          "0.6": {
+            "width_nm": 40.87476479582335,
+            "left_nm": 624.318587529395,
+            "right_nm": 665.1933523252184,
+            "left_halfwidth_nm": 23.681412470604982,
+            "right_halfwidth_nm": 17.19335232521837
+          },
+          "0.7": {
+            "width_nm": 32.76750185788626,
+            "left_nm": 629.680707228171,
+            "right_nm": 662.4482090860572,
+            "left_halfwidth_nm": 18.319292771829055,
+            "right_halfwidth_nm": 14.448209086057204
+          },
+          "0.8": {
+            "width_nm": 25.174356317349634,
+            "left_nm": 634.3634514192545,
+            "right_nm": 659.5378077366041,
+            "left_halfwidth_nm": 13.636548580745512,
+            "right_halfwidth_nm": 11.537807736604123
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 51.782,
+          "11": 51.831,
+          "21": 52.009,
+          "31": 52.493,
+          "51": 55.478
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy5-8/Cy5-8 (Figure S122, absorption spectra).txt"
+      },
+      "emission": {
+        "published_peak_nm": 681.0,
+        "raw_grid_peak_nm": 681.69891,
+        "peak_estimates_nm": {
+          "raw": 681.6621,
+          "sg7": 681.9651,
+          "sg11": 681.3524,
+          "sg21": 681.8296,
+          "sg31": 682.3953,
+          "sg51": 682.1854
+        },
+        "peak_smoothing_range_nm": [
+          681.3524,
+          682.3953
+        ],
+        "wavelength_grid_step_nm": 0.4365849999999796,
+        "n_points": 393,
+        "measured_wavelength_range_nm": [
+          629.42065,
+          800.53223
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 64.10385547289695,
+            "left_nm": 661.7008925133764,
+            "right_nm": 725.8047479862734,
+            "left_halfwidth_nm": 19.55325748662358,
+            "right_halfwidth_nm": 44.550597986273374
+          },
+          "0.5": {
+            "width_nm": 49.65919494531124,
+            "left_nm": 664.4176406229526,
+            "right_nm": 714.0768355682638,
+            "left_halfwidth_nm": 16.836509377047378,
+            "right_halfwidth_nm": 32.822685568263864
+          },
+          "0.6": {
+            "width_nm": 39.432991702472805,
+            "left_nm": 666.8672566977976,
+            "right_nm": 706.3002484002704,
+            "left_halfwidth_nm": 14.386893302202338,
+            "right_halfwidth_nm": 25.046098400270466
+          },
+          "0.7": {
+            "width_nm": 31.453914458669715,
+            "left_nm": 669.238089918382,
+            "right_nm": 700.6920043770517,
+            "left_halfwidth_nm": 12.01606008161798,
+            "right_halfwidth_nm": 19.437854377051735
+          },
+          "0.8": {
+            "width_nm": 23.43674602956196,
+            "left_nm": 672.0188104771789,
+            "right_nm": 695.4555565067409,
+            "left_halfwidth_nm": 9.23533952282105,
+            "right_halfwidth_nm": 14.20140650674091
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 49.853,
+          "11": 49.659,
+          "21": 49.865,
+          "31": 49.983,
+          "51": 50.157
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy5-8/Cy5-8 (Figure S122, emission spectra).txt"
+      }
+    },
+    "Cy7-3": {
+      "absorption": {
+        "published_peak_nm": 745.0,
+        "raw_grid_peak_nm": 745.0,
+        "peak_estimates_nm": {
+          "raw": 745.0962,
+          "sg7": 745.0656,
+          "sg11": 745.2762,
+          "sg21": 745.0639,
+          "sg31": 745.2462,
+          "sg51": 744.9365
+        },
+        "peak_smoothing_range_nm": [
+          744.9365,
+          745.2762
+        ],
+        "wavelength_grid_step_nm": 1.0,
+        "n_points": 911,
+        "measured_wavelength_range_nm": [
+          190.0,
+          1100.0
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 207.0054530719433,
+            "left_nm": 585.5082109642159,
+            "right_nm": 792.5136640361592,
+            "left_halfwidth_nm": 159.4917890357841,
+            "right_halfwidth_nm": 47.513664036159184
+          },
+          "0.5": {
+            "width_nm": 184.05717207882606,
+            "left_nm": 603.4589668784665,
+            "right_nm": 787.5161389572926,
+            "left_halfwidth_nm": 141.54103312153347,
+            "right_halfwidth_nm": 42.51613895729258
+          },
+          "0.6": {
+            "width_nm": 161.6692148195458,
+            "left_nm": 621.0829027586577,
+            "right_nm": 782.7521175782035,
+            "left_halfwidth_nm": 123.91709724134228,
+            "right_halfwidth_nm": 37.752117578203524
+          },
+          "0.7": {
+            "width_nm": 139.78153424641266,
+            "left_nm": 638.0838083610491,
+            "right_nm": 777.8653426074618,
+            "left_halfwidth_nm": 106.91619163895086,
+            "right_halfwidth_nm": 32.8653426074618
+          },
+          "0.8": {
+            "width_nm": 113.84754820298895,
+            "left_nm": 658.5600069063664,
+            "right_nm": 772.4075551093554,
+            "left_halfwidth_nm": 86.43999309363357,
+            "right_halfwidth_nm": 27.40755510935537
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 184.053,
+          "11": 184.057,
+          "21": 184.069,
+          "31": 184.086,
+          "51": 184.141
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy7-3/Cy7-3 (Figure S123, absorption spectra).txt"
+      },
+      "emission": {
+        "published_peak_nm": 806.0,
+        "raw_grid_peak_nm": 805.51886,
+        "peak_estimates_nm": {
+          "raw": 805.5074,
+          "sg7": 805.1434,
+          "sg11": 805.9375,
+          "sg21": 805.0304,
+          "sg31": 805.832,
+          "sg51": 804.8474
+        },
+        "peak_smoothing_range_nm": [
+          804.8474,
+          805.9375
+        ],
+        "wavelength_grid_step_nm": 0.41192000000000917,
+        "n_points": 416,
+        "measured_wavelength_range_nm": [
+          729.57147,
+          900.48273
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 81.43837362199781,
+            "left_nm": 771.8467523001361,
+            "right_nm": 853.285125922134,
+            "left_halfwidth_nm": 34.087027699863825,
+            "right_halfwidth_nm": 47.35134592213399
+          },
+          "0.5": {
+            "width_nm": 66.55348696138105,
+            "left_nm": 776.9730911392924,
+            "right_nm": 843.5265781006734,
+            "left_halfwidth_nm": 28.96068886070759,
+            "right_halfwidth_nm": 37.59279810067346
+          },
+          "0.6": {
+            "width_nm": 53.6047882159495,
+            "left_nm": 781.3166610300918,
+            "right_nm": 834.9214492460413,
+            "left_halfwidth_nm": 24.61711896990812,
+            "right_halfwidth_nm": 28.987669246041378
+          },
+          "0.7": {
+            "width_nm": 42.7631572142958,
+            "left_nm": 785.6093137632666,
+            "right_nm": 828.3724709775624,
+            "left_halfwidth_nm": 20.324466236733315,
+            "right_halfwidth_nm": 22.438690977562487
+          },
+          "0.8": {
+            "width_nm": 32.3364067755158,
+            "left_nm": 789.9521897677438,
+            "right_nm": 822.2885965432596,
+            "left_halfwidth_nm": 15.981590232256167,
+            "right_halfwidth_nm": 16.35481654325963
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 66.455,
+          "11": 66.553,
+          "21": 66.196,
+          "31": 66.263,
+          "51": 66.146
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy7-3/Cy7-3 (Figure S123, emission spectra).txt"
+      }
+    },
+    "Cy7-8": {
+      "absorption": {
+        "published_peak_nm": 741.0,
+        "raw_grid_peak_nm": 741.0,
+        "peak_estimates_nm": {
+          "raw": 740.6636,
+          "sg7": 740.5563,
+          "sg11": 740.6694,
+          "sg21": 740.6782,
+          "sg31": 740.5599,
+          "sg51": 739.7574
+        },
+        "peak_smoothing_range_nm": [
+          739.7574,
+          740.6782
+        ],
+        "wavelength_grid_step_nm": 1.0,
+        "n_points": 911,
+        "measured_wavelength_range_nm": [
+          190.0,
+          1100.0
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 209.95394796118694,
+            "left_nm": 567.6517503900156,
+            "right_nm": 777.6056983512026,
+            "left_halfwidth_nm": 173.34824960998435,
+            "right_halfwidth_nm": 36.60569835120259
+          },
+          "0.5": {
+            "width_nm": 178.5486201177804,
+            "left_nm": 594.2399825639046,
+            "right_nm": 772.788602681685,
+            "left_halfwidth_nm": 146.76001743609538,
+            "right_halfwidth_nm": 31.788602681685006
+          },
+          "0.6": {
+            "width_nm": 144.77247265397966,
+            "left_nm": 623.6452223684379,
+            "right_nm": 768.4176950224175,
+            "left_halfwidth_nm": 117.35477763156211,
+            "right_halfwidth_nm": 27.417695022417547
+          },
+          "0.7": {
+            "width_nm": 111.0767874455247,
+            "left_nm": 653.0651041175422,
+            "right_nm": 764.1418915630669,
+            "left_halfwidth_nm": 87.9348958824578,
+            "right_halfwidth_nm": 23.141891563066906
+          },
+          "0.8": {
+            "width_nm": 57.959688793058035,
+            "left_nm": 701.6490581684635,
+            "right_nm": 759.6087469615215,
+            "left_halfwidth_nm": 39.35094183153649,
+            "right_halfwidth_nm": 18.608746961521547
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 178.449,
+          "11": 178.549,
+          "21": 178.505,
+          "31": 178.677,
+          "51": 179.79
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy7-8/Cy7-8 (Figure S124, absorption spetra).txt"
+      },
+      "emission": {
+        "published_peak_nm": 788.0,
+        "raw_grid_peak_nm": 788.41864,
+        "peak_estimates_nm": {
+          "raw": 788.4323,
+          "sg7": 788.7549,
+          "sg11": 788.8236,
+          "sg21": 788.0734,
+          "sg31": 788.1737,
+          "sg51": 787.9294
+        },
+        "peak_smoothing_range_nm": [
+          787.9294,
+          788.8236
+        ],
+        "wavelength_grid_step_nm": 0.40942999999992935,
+        "n_points": 370,
+        "measured_wavelength_range_nm": [
+          749.40723,
+          900.48273
+        ],
+        "width_at_fraction_of_exported_peak_height": {
+          "0.4": {
+            "width_nm": 73.66241354530098,
+            "left_nm": 759.1306251828728,
+            "right_nm": 832.7930387281738,
+            "left_halfwidth_nm": 29.707264817127225,
+            "right_halfwidth_nm": 43.955148728173754
+          },
+          "0.5": {
+            "width_nm": 60.64422792768528,
+            "left_nm": 762.9348395364408,
+            "right_nm": 823.5790674641261,
+            "left_halfwidth_nm": 25.903050463559225,
+            "right_halfwidth_nm": 34.741177464126054
+          },
+          "0.6": {
+            "width_nm": 50.11521655213312,
+            "left_nm": 766.4654444494574,
+            "right_nm": 816.5806610015906,
+            "left_halfwidth_nm": 22.37244555054258,
+            "right_halfwidth_nm": 27.74277100159054
+          },
+          "0.7": {
+            "width_nm": 40.56576470846392,
+            "left_nm": 770.0069473522752,
+            "right_nm": 810.5727120607391,
+            "left_halfwidth_nm": 18.830942647724783,
+            "right_halfwidth_nm": 21.734822060739134
+          },
+          "0.8": {
+            "width_nm": 31.505263538944746,
+            "left_nm": 773.657386264113,
+            "right_nm": 805.1626498030578,
+            "left_halfwidth_nm": 15.180503735886987,
+            "right_halfwidth_nm": 16.32475980305776
+          }
+        },
+        "apparent_halfmax_width_by_savgol_window_nm": {
+          "7": 60.602,
+          "11": 60.644,
+          "21": 60.616,
+          "31": 60.669,
+          "51": 60.716
+        },
+        "bandwidth_caution": "These are descriptive widths of overlapping exported bands, not baseline-corrected/deconvolved FWHM or measurement uncertainty.",
+        "source_file_in_zip": "Cy7-8/Cy7-8 (Figure S124, emission spetra).txt"
+      }
+    }
+  },
+  "pairs": [
+    {
+      "pair": "Cy5-7 -> Cy5-8",
+      "data_source": "same published paper and solvent; not replicate scans",
+      "absorption": {
+        "reported_table_difference_nm": 0.0,
+        "raw_grid_peak_difference_nm": -1.0,
+        "sg11_subgrid_difference_nm": -0.3824,
+        "smooth_window_differences_nm": {
+          "raw": -0.5559,
+          "sg7": -0.3318,
+          "sg11": -0.3824,
+          "sg21": -1.0676,
+          "sg31": -0.6541,
+          "sg51": -0.5686
+        },
+        "apparent_width_at_halfmax_nm": {
+          "Cy5-7": 85.279,
+          "Cy5-8": 51.831
+        },
+        "apparent_halfmax_width_difference_nm": -33.448,
+        "shape_after_peak_alignment": {
+          "peak_aligned_mean_absolute_normalized_signal_difference": 0.1205198352169772,
+          "peak_aligned_RMS_normalized_signal_difference": 0.1454255090774916,
+          "peak_aligned_area_intersection_over_union": 0.7580410661899394,
+          "relative_window_nm": [
+            -85.0,
+            85.0
+          ],
+          "caution": "Descriptive shape metrics on normalized spectra; not uncertainty or quantum yield."
+        }
+      },
+      "emission": {
+        "reported_table_difference_nm": -12.0,
+        "raw_grid_peak_difference_nm": -11.97187000000008,
+        "sg11_subgrid_difference_nm": -12.1922,
+        "smooth_window_differences_nm": {
+          "raw": -11.9758,
+          "sg7": -11.6843,
+          "sg11": -12.1922,
+          "sg21": -10.2291,
+          "sg31": -9.9571,
+          "sg51": -10.3787
+        },
+        "apparent_width_at_halfmax_nm": {
+          "Cy5-7": 60.975,
+          "Cy5-8": 49.659
+        },
+        "apparent_halfmax_width_difference_nm": -11.316,
+        "shape_after_peak_alignment": {
+          "peak_aligned_mean_absolute_normalized_signal_difference": 0.06331871897008495,
+          "peak_aligned_RMS_normalized_signal_difference": 0.09360740653946681,
+          "peak_aligned_area_intersection_over_union": 0.8918700126540454,
+          "relative_window_nm": [
+            -35.0,
+            75.0
+          ],
+          "caution": "Descriptive shape metrics on normalized spectra; not uncertainty or quantum yield."
+        }
+      }
+    },
+    {
+      "pair": "Cy7-3 -> Cy7-8",
+      "data_source": "same published paper and solvent; not replicate scans",
+      "absorption": {
+        "reported_table_difference_nm": -4.0,
+        "raw_grid_peak_difference_nm": -4.0,
+        "sg11_subgrid_difference_nm": -4.6068,
+        "smooth_window_differences_nm": {
+          "raw": -4.4326,
+          "sg7": -4.5093,
+          "sg11": -4.6068,
+          "sg21": -4.3857,
+          "sg31": -4.6863,
+          "sg51": -5.1791
+        },
+        "apparent_width_at_halfmax_nm": {
+          "Cy7-3": 184.057,
+          "Cy7-8": 178.549
+        },
+        "apparent_halfmax_width_difference_nm": -5.509,
+        "shape_after_peak_alignment": {
+          "peak_aligned_mean_absolute_normalized_signal_difference": 0.09425166070773157,
+          "peak_aligned_RMS_normalized_signal_difference": 0.11131054999258194,
+          "peak_aligned_area_intersection_over_union": 0.8692864954908951,
+          "relative_window_nm": [
+            -95.0,
+            85.0
+          ],
+          "caution": "Descriptive shape metrics on normalized spectra; not uncertainty or quantum yield."
+        }
+      },
+      "emission": {
+        "reported_table_difference_nm": -18.0,
+        "raw_grid_peak_difference_nm": -17.100220000000036,
+        "sg11_subgrid_difference_nm": -17.1139,
+        "smooth_window_differences_nm": {
+          "raw": -17.0751,
+          "sg7": -16.3885,
+          "sg11": -17.1139,
+          "sg21": -16.957,
+          "sg31": -17.6583,
+          "sg51": -16.918
+        },
+        "apparent_width_at_halfmax_nm": {
+          "Cy7-3": 66.553,
+          "Cy7-8": 60.644
+        },
+        "apparent_halfmax_width_difference_nm": -5.909,
+        "shape_after_peak_alignment": {
+          "peak_aligned_mean_absolute_normalized_signal_difference": 0.024079971102198852,
+          "peak_aligned_RMS_normalized_signal_difference": 0.032715333861850965,
+          "peak_aligned_area_intersection_over_union": 0.9607705770723235,
+          "relative_window_nm": [
+            -35.0,
+            75.0
+          ],
+          "caution": "Descriptive shape metrics on normalized spectra; not uncertainty or quantum yield."
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Single exported trace per condition: no experimental CI, significance or true wavelength calibration uncertainty.",
+    "Absorption sampling is 1 nm, so shifts of 1 nm or less are not robustly resolved.",
+    "The apparent width describes the exported band envelope, which may contain overlapping transitions.",
+    "Original signal appears normalized; intensity magnitude/area cannot imply brightness, quantum yield or extinction coefficient.",
+    "Sample pH/concentration/aggregation, repeat scans and instrument metadata were not independently verified.",
+    "The Hückel–Hammett rule is tested only for qualitative direction in selected pairs, not proven or rejected by these spectra."
+  ]
+}

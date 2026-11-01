@@ -1,0 +1,5 @@
+chain,position,substituent,type,reported_absorption_shift_nm_approx,paper_direction,huckel_direction,qualitative_match,note
+Cy-5,meso,OH,EDG,30,red,red,True,"Reported approximate contrast from 2026 paper, not an independently measured datapoint"
+Cy-5,meso,NO2,EWG,-35,blue,blue,True,"Reported approximate contrast from 2026 paper, not an independently measured datapoint"
+Cy-7,meso,OEt,EDG,-45,blue,blue,True,"Reported approximate contrast from 2026 paper, not an independently measured datapoint"
+Cy-7,meso,CN,EWG,65,red,red,True,"Reported approximate contrast from 2026 paper, not an independently measured datapoint"

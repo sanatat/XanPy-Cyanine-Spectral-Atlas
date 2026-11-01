@@ -1,0 +1,166 @@
+{
+  "stage2": {
+    "raw_rows": 49851,
+    "retained_rows": 49602,
+    "unique_molecules": 30839,
+    "has_absorption": 31350,
+    "has_emission": 25566,
+    "has_plqy": 19777,
+    "has_extinction": 26273,
+    "recovered_endpoint_only": 16739,
+    "source_sha256": "3dde9fc378363fc2344811f4381169bf56bfc754e0374a632390550be0acc954"
+  },
+  "stage3": {
+    "emission_molecule": {
+      "MAE_structure": 36.882,
+      "MAE_structure_solvent": 35.2169,
+      "R2_solvent": 0.7166
+    },
+    "emission_scaffold": {
+      "MAE_structure": 39.8383,
+      "MAE_structure_solvent": 38.3875,
+      "R2_solvent": 0.6345
+    },
+    "absorption_molecule": {
+      "MAE_structure": 33.0229,
+      "MAE_structure_solvent": 32.8566
+    },
+    "absorption_scaffold": {
+      "MAE_structure": 42.6283,
+      "MAE_structure_solvent": 42.2921
+    }
+  },
+  "stage4": {
+    "emission_molecule_gain_nm": 1.665,
+    "emission_molecule_CI95_nm": [
+      1.0909,
+      2.2445
+    ],
+    "emission_scaffold_gain_nm": 1.4508,
+    "emission_scaffold_CI95_nm": [
+      0.5575,
+      2.4065
+    ],
+    "absorption_molecule_gain_nm": 0.1663,
+    "absorption_molecule_CI95_nm": [
+      -0.3333,
+      0.6643
+    ],
+    "absorption_scaffold_gain_nm": 0.3361,
+    "absorption_scaffold_CI95_nm": [
+      -0.3922,
+      0.9979
+    ]
+  },
+  "stage5": {
+    "scaffold_seeds": [
+      11,
+      42,
+      2026
+    ],
+    "emission_gain_nm": [
+      1.4763,
+      1.4508,
+      0.5358
+    ],
+    "average_gain_nm": 1.1543,
+    "seed42_unchanged": true
+  },
+  "stage6": {
+    "within_doi_solvent_pairs_dependent": 50530,
+    "unique_molecules": 3124,
+    "molecule_doi_groups": 3195,
+    "median_abs_em_shift_nm": 10,
+    "median_abs_abs_shift_nm": 4,
+    "median_abs_stokes_shift_cm1": 443.43,
+    "fraction_em_change_larger_pairs": 0.6876
+  },
+  "stage7": {
+    "unique_dois": 753,
+    "molecule_balanced_fraction_em_larger_nm": 0.63969,
+    "molecule_balanced_ci95_nm": [
+      0.62666,
+      0.65201
+    ],
+    "molecule_balanced_fraction_em_larger_cm1": 0.60448,
+    "molecule_balanced_ci95_cm1": [
+      0.59119,
+      0.61749
+    ],
+    "doi_balanced_fraction_em_larger_nm": 0.66896,
+    "doi_balanced_ci95_nm": [
+      0.64697,
+      0.69064
+    ]
+  },
+  "stage8": {
+    "matched_seven_selected_solvent_contrasts": 3861,
+    "toluene_to_acetonitrile": {
+      "unique_molecules": 891,
+      "mean_delta_em_nm": 20.9084,
+      "mean_delta_abs_nm": -6.2277,
+      "mean_delta_stokes_cm1": 1025.6273
+    }
+  },
+  "stage9": {
+    "BODIPY_toluene_to_acetonitrile": {
+      "molecules": 413,
+      "dois": 78,
+      "delta_em_nm": -5.114
+    },
+    "PAHs_toluene_to_acetonitrile": {
+      "molecules": 100,
+      "dois": 40,
+      "delta_em_nm": 26.155
+    },
+    "6n6_broad_label_toluene_to_acetonitrile": {
+      "molecules": 69,
+      "dois": 26,
+      "delta_em_nm": 69.754
+    }
+  },
+  "stage11": {
+    "scanned_unique_structures": 30839,
+    "O_xanthene_like_unique": 2097,
+    "Si_xanthene_like_unique": 38,
+    "Ge_xanthene_like_unique": 2
+  },
+  "stage12": {
+    "candidate_records": 2278,
+    "strict_reference_tests_passed": 8,
+    "O_conjugated": {
+      "rows": 1026,
+      "unique_molecules": 812,
+      "valid_paired_spectra": 439,
+      "doi_traceable_paired_spectra": 383,
+      "multi_solvent_molecule_doi_groups": 37
+    },
+    "Si_conjugated": {
+      "rows": 36,
+      "unique_molecules": 34,
+      "valid_paired_spectra": 9,
+      "multi_solvent_molecule_doi_groups": 0
+    }
+  },
+  "stage13": {
+    "valid_measurements": 383,
+    "molecules_in_multisolvent": 37,
+    "unique_dois": 7,
+    "dependent_solvent_pairs": 124,
+    "emission_dominant_nm_molecule_balanced": 0.59099,
+    "ci95_nm": [
+      0.45671,
+      0.72252
+    ],
+    "emission_dominant_cm1_molecule_balanced": 0.55946,
+    "ci95_cm1": [
+      0.42878,
+      0.68921
+    ],
+    "mean_abs_shift_difference_nm": 1.0982,
+    "ci95_mean_difference_nm": [
+      -0.08502,
+      2.25412
+    ]
+  }
+}

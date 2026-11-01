@@ -1,0 +1,17 @@
+chain,chain_length,class,position,site_index_1based,substituent_type,onsite_shift_beta_units,homo_density_on_site,lumo_density_on_site,first_order_gap_derivative,first_order_delta_gap,exact_model_delta_gap,predicted_absorption_shift
+Cy-3,3,4n-1,meso,2,EDG,0.15,0.0,0.5,0.5,0.075,0.0769873,blue
+Cy-3,3,4n-1,meso,2,EWG,-0.15,0.0,0.5,0.5,-0.075,-0.0730127,red
+Cy-3,3,4n-1,alpha,1,EDG,0.15,0.5,0.25,-0.25,-0.0375,-0.034698,red
+Cy-3,3,4n-1,alpha,1,EWG,-0.15,0.5,0.25,-0.25,0.0375,0.039671,blue
+Cy-5,5,4n+1,meso,3,EDG,0.15,0.3333333,0.0,-0.3333333,-0.05,-0.0499169,red
+Cy-5,5,4n+1,meso,3,EWG,-0.15,0.3333333,0.0,-0.3333333,0.05,0.0499169,blue
+Cy-5,5,4n+1,alpha,2,EDG,0.15,0.0,0.25,0.25,0.0375,0.0366937,blue
+Cy-5,5,4n+1,alpha,2,EWG,-0.15,0.0,0.25,0.25,-0.0375,-0.0380965,red
+Cy-7,7,4n-1,meso,4,EDG,0.15,0.0,0.25,0.25,0.0375,0.0375814,blue
+Cy-7,7,4n-1,meso,4,EWG,-0.15,0.0,0.25,0.25,-0.0375,-0.0372698,red
+Cy-7,7,4n-1,alpha,3,EDG,0.15,0.25,0.0366117,-0.2133883,-0.0320083,-0.0318506,red
+Cy-7,7,4n-1,alpha,3,EWG,-0.15,0.25,0.0366117,-0.2133883,0.0320083,0.0320146,blue
+Cy-9,9,4n+1,meso,5,EDG,0.15,0.2,0.0,-0.2,-0.03,-0.0299462,red
+Cy-9,9,4n+1,meso,5,EWG,-0.15,0.2,0.0,-0.2,0.03,0.0299462,blue
+Cy-9,9,4n+1,alpha,4,EDG,0.15,0.0,0.1809017,0.1809017,0.0271353,0.0268838,blue
+Cy-9,9,4n+1,alpha,4,EWG,-0.15,0.0,0.1809017,0.1809017,-0.0271353,-0.027261,red

@@ -1,0 +1,3 @@
+from,to,delta_abs_sg11_nm,delta_em_sg11_nm,abs_halfheight_width_from_nm,abs_halfheight_width_to_nm,delta_abs_width_nm
+Cy5-7,Cy5-8,-0.3824,-12.1922,85.279,51.831,-33.448
+Cy7-3,Cy7-8,-4.6068,-17.1139,184.057,178.549,-5.509

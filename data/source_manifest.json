@@ -1,0 +1,77 @@
+{
+  "source_publication": {
+    "title": "C1′-Substituted Penta- and Heptamethine Cyanines: Synthetic Scope and Properties",
+    "authors": [
+      "Ottavio Bedocchi",
+      "Jana Okoročenkova",
+      "Petr Klán"
+    ],
+    "journal": "Journal of Organic Chemistry",
+    "year": 2026,
+    "doi": "10.1021/acs.joc.6c00573",
+    "article_url": "https://doi.org/10.1021/acs.joc.6c00573"
+  },
+  "original_dataset": {
+    "zenodo_record": "https://zenodo.org/records/20119205",
+    "doi": "10.5281/zenodo.20119205",
+    "license_status": "Zenodo record public; no explicit license string visible on the record page at packaging time. Original ZIPs not redistributed."
+  },
+  "zip_archives": [
+    {
+      "filename": "Cy5-7.zip",
+      "md5": "15d35122836b39ef7e475c3904ffceaf",
+      "url": "https://zenodo.org/records/20119205/files/Cy5-7.zip?download=1"
+    },
+    {
+      "filename": "Cy5-8.zip",
+      "md5": "de045dcd49ff0eb86ad80c65e98b382f",
+      "url": "https://zenodo.org/records/20119205/files/Cy5-8.zip?download=1"
+    },
+    {
+      "filename": "Cy7-3.zip",
+      "md5": "5c199383545d8fb62cc6adff7011508c",
+      "url": "https://zenodo.org/records/20119205/files/Cy7-3.zip?download=1"
+    },
+    {
+      "filename": "Cy7-8.zip",
+      "md5": "5cab22162f49e71a1275d3db5b877f4e",
+      "url": "https://zenodo.org/records/20119205/files/Cy7-8.zip?download=1"
+    }
+  ],
+  "table_peaks_nm": {
+    "Cy5-7": {
+      "absorption": 649,
+      "emission": 693
+    },
+    "Cy5-8": {
+      "absorption": 649,
+      "emission": 681
+    },
+    "Cy7-3": {
+      "absorption": 745,
+      "emission": 806
+    },
+    "Cy7-8": {
+      "absorption": 741,
+      "emission": 788
+    }
+  },
+  "comparisons": [
+    {
+      "from": "Cy5-7",
+      "to": "Cy5-8",
+      "chain": "Cy5",
+      "substituent_C1prime": "OMe to Cl",
+      "same_solvent_as_paper": "methanol",
+      "interpretation": "descriptive pair; no independent experimental repeats"
+    },
+    {
+      "from": "Cy7-3",
+      "to": "Cy7-8",
+      "chain": "Cy7",
+      "substituent_C1prime": "OMe to NHAc",
+      "same_solvent_as_paper": "methanol",
+      "interpretation": "descriptive pair; no independent experimental repeats"
+    }
+  ]
+}
